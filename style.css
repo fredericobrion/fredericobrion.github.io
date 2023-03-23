@@ -1,0 +1,55 @@
+body {
+    background-color: #06283D;
+    color: #DFF6FF;
+    padding: 1%;
+  }
+
+#nome {
+    font-family: Verdana;
+    text-align: center;
+    font-size: 2rem;
+  }
+
+#descricao {
+    font-family: helvetica;
+    position: absolute;
+    top: 40%;
+    right: 2%;
+  }
+
+#transicao {
+    color: #A5C9CA
+  }
+
+.listas {
+    line-height: 24px;
+  }
+
+a {
+    text-decoration: none;
+  }
+
+a:visited {
+    color: #E7F6F2;
+  }
+
+a:hover {
+    font-size: 1.2em;
+  }
+
+#foto {
+    float: left;
+    height: 500px;
+    padding: 10px;
+    background-color: #1363DF;
+    margin-right: 15px;
+}
+
+#imagem-descricao {
+    height: 520px;
+    position: relative;
+}
+
+#habilidades li:nth-child(odd) {
+    font-weight: bold;
+}
